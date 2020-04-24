@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #332f79;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    text-align: center;
+}
+.card-time{
+   background-color: rgb(57, 116, 136);
+   height: 200px;
+   width: 200px;
+   margin-left: 3%;
+   text-align: center;
+}
+.number{
+    font-size: 120px;
+}
+.secwe{
+    background-color: #ffce00;
+}
+.minwe{
+    background-color: rgb(238, 136, 136);
+}
+footer{
+    background-color: rgb(209, 125, 125);
+}
+p{
+    text-align: center;
+    padding: 2%;
+    font-size: 1.29rem;
+}
+@media (max-width: 900px) {
+    .card-time{
+        height: 200px;
+        width: 100%;
+        margin-left: 1%;
+    }
+}
